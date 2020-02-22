@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/Cellar/node/13.8.0/bin/node /usr/local/Cellar/yarn/1.22.0/libexec/bin/yarn.js add --registry https://registry.npm.taobao.org/ express body-parser mongoose
+
+PATH: 
+  /Users/authurchen/.cargo/bin:/Users/authurchen/opt/anaconda3/envs/py37/bin:/Users/authurchen/opt/anaconda3/condabin:/Users/authurchen/opt/anaconda3/bin:/Users/authurchen/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  13.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/mongodb/download/mongodb-3.5.3.tgz: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:180:17)
+
+npm manifest: 
+  {
+    "name": "positionservice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
